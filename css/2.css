@@ -44,18 +44,29 @@ footer {
   text-align: center;
 }
 
+/*jquery classes*/
+
+#clickon {}
+
+input {
+  display: inline-block;
+  margin: auto;
+}
+
 /* Tablet/Desktop overrides */
 
-@media(ma-width: 681px) {
+@media(max-width: 681px) {
   .textbox {
     max-width: 500px;
   }
-  /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 }
+
+/* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 
 @media(min-width: 729px) {
   .textbox {
     max-width: 500px;
   }
-  /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
 }
+
+/* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
